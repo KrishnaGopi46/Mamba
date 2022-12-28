@@ -8,10 +8,6 @@ body{
 	padding-top:5rem;
 	padding-bottom:5rem;
 }
-.abg{
-	background-color: blue !important;
-    color: #fff !important;
-}
 @media (min-width:320px){
 	.container{
 		width:95%;
@@ -121,7 +117,7 @@ body{
     color:gray;
 }
 .icon2 i:hover{
-	color:blue;
+	color:#428bca;
 }
 }
 /*header section*/
@@ -214,7 +210,7 @@ body{
     padding-right: 2.5rem;
 }
 .hd-nav a:hover{
-	color:blue;
+	color:#428bca;
 	transition:0.6s ease-in-out;
 }
 
@@ -229,28 +225,28 @@ body{
 }
 }
 /*banner section*/
-@media(min-width:320px){
-.container{
-	width:95%;
-	margin:auto;
-}
 .banner1{
 	background-image:url("../img/slide-2.jpg");
 	width:100%;
 	height:auto;
-	background-position:center;
+	background-size:cover;
 	position:relative;
-	padding-bottom:5rem;
 }
 .banner1::after{
 	content:"";
 	background-color:rgba(13,30,45,0.6);
-	opacity:0.9;
+	opacity:1;
 	position:absolute;
 	top:0;
 	right:0;
 	left:0;
 	bottom:0;
+}
+
+@media(min-width:320px){
+.container{
+	width:95%;
+	margin:auto;
 }
 .banner-title{
 	z-index:997;
@@ -289,21 +285,6 @@ body{
     width:90%;
     margin:auto;
 }
-.banner1{
-	background-image:url("./img/slide-2.jpg");
-	width:100%;
-	position:relative;
-}
-.banner1::after{
-	content:"";
-	background-color:rgba(13,30,45,0.6);
-	opacity:1;
-	position:absolute;
-	top:0;
-	right:0;
-	left:0;
-	bottom:0;
-}
 .banner-title{
 	z-index:997;
 	position:relative;
@@ -340,23 +321,6 @@ body{
 .container{
     width:85%;
     margin:auto;
-}
-.banner1{
-	background-image:url("../img/slide-2.jpg");
-	width:100%;
-	height:100vh;
-	background-size:cover;
-	position:relative;
-}
-.banner1::after{
-	content:"";
-	background-color:rgba(13,30,45,0.6);
-	opacity:1;
-	position:absolute;
-	top:0;
-	right:0;
-	left:0;
-	bottom:0;
 }
 .banner-title{
 	z-index:997;
@@ -465,7 +429,7 @@ body{
 		box-shadow: 0 5px 10px 0 rgb(214 215 216 / 30%);
 	}
     .about-icon i{
-        color:blue;
+        color:#428bca;
         font-size: 2rem;
     }
 	.about1:hover .about-icon{
@@ -969,10 +933,10 @@ body{
 }
 .sicon i{
     font-size: 2rem;
-	color:blue;
+	color:#428bca;
 }
 .service-content:hover .sicon{
-    box-shadow:0px 0 25px blue;
+    box-shadow:0px 0 25px #428bca;
     transition: 2s;
 }
 .service-content h3{
@@ -1035,10 +999,10 @@ body{
 }
 .sicon i{
     font-size: 2rem;
-	color:blue;
+	color:#428bca;
 }
 .service-content:hover .sicon{
-    box-shadow:0px 0 25px blue;
+    box-shadow:0px 0 25px #428bca;
     transition: 2s;
 }
 .service-content h3{
@@ -1101,10 +1065,10 @@ body{
 }
 .sicon i{
     font-size: 2rem;
-	color:blue;
+	color:#428bca;
 }
 .service-content:hover .sicon{
-    box-shadow:0px 0 25px blue;
+    box-shadow:0px 0 25px #428bca;
     transition: 0.5s;
 }
 .service-content h3{
@@ -1131,6 +1095,10 @@ body{
 }
 }
 /*portfolio section*/
+.abg{
+	background-color:#428bca !important;
+    color: #fff !important;
+}
 @media(min-width:320px){
 .banner7{
     background-color:#f5f9fc;
@@ -1158,7 +1126,7 @@ body{
     margin-bottom: 4rem;
 }
 .port-button a:hover{
-    background-color:blue;
+    background-color:#428bca;
     color:white;
 }
 .port-button a{
@@ -1204,10 +1172,6 @@ body{
 	text-align:center;
     margin-bottom: 1rem;
 }
-.abg{
-	background-color:blue;
-	color:white;
-}
 .port-icon i{
     background-color: white;
     color:#428bca;
@@ -1236,7 +1200,7 @@ body{
    opacity:1;
 }
 .pic-content i:hover{
-	background-color:blue;
+	background-color:#428bca;
 	color:white;
 }
 @media(min-width:768px){
@@ -1265,11 +1229,8 @@ body{
     text-align: center;
     margin-bottom: 4rem;
 }
-.ablue a{
-	background-color:blue;
-}
 .port-button a:hover{
-    background-color:blue;
+    background-color:#428bca;
     color:white;
 }
 .port-button a{
@@ -1342,7 +1303,7 @@ body{
    
 }
 .pic-content i:hover{
-	background-color:blue;
+	background-color:#428bca;
 	color:white;
 }
 }
@@ -1372,7 +1333,7 @@ body{
     margin-bottom: 4rem;
 }
 .port-button a:hover{
-    background-color:blue;
+    background-color:#428bca;
     color:white;
 }
 .port-button a{
@@ -1411,9 +1372,6 @@ body{
     margin-bottom: 0.6rem;
 	text-align:center;
 }
-.abg{
-	background-color:blue;
-}
 .pic-content p{
     color: #eee;
     font-size: 1rem;
@@ -1449,7 +1407,7 @@ body{
    opacity:1;
 }
 .pic-content i:hover{
-	background-color:blue;
+	background-color:#428bca;
 	color:white;
 }
 }
@@ -2423,7 +2381,7 @@ form{
 	font-weight:700;
 }
 .second-content a{
-	color:blue;
+	color:#428bca;
 }
 .second-content p{
 	margin-top:1rem;
@@ -2443,7 +2401,7 @@ form{
 	font-weight:700;
 }
 .second-content a{
-	color:blue;
+	color:#428bca;
 }
 .second-content p{
 	margin-top:1rem;
@@ -2463,7 +2421,7 @@ form{
 	font-weight:700;
 }
 .second-content a{
-	color:blue;
+	color:#428bca;
 }
 .second-content p{
 	margin-top:1rem;
