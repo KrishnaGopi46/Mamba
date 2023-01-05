@@ -228,9 +228,10 @@ body{
 .banner1{
 	background-image:url("../img/slide-2.jpg");
 	width:100%;
-	height:auto;
+	height:100vh;
 	background-size:cover;
 	position:relative;
+	background-position:right;
 }
 .banner1::after{
 	content:"";
